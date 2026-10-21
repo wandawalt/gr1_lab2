@@ -34,7 +34,7 @@ int main()
 	cout << endl << endl;
 
 //zadanie 3
-
+/*
 	int fahr, celsius;
 	int start, limit, krok;
 
@@ -47,7 +47,46 @@ int main()
 
 	}
 
+	*/
+	//zadanie 5
 
+	//jesli zmienimy 5.0 / 9.0 na 5/9 to wypisza sie zera
+
+	//zadanie 6
+	int fahr, celsius;
+	int start, limit, krok;
+
+	cout << "start: ";
+	cin >> start;
+	cout << "limit: ";
+	cin >> limit;
+	cout << "krok: ";
+	cin >> krok;
+	for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
+		float celsius = (5.0 / 9.0) * (fahr - 32);
+		cout << fahr << " " << celsius << endl;
+	}
+	cout << endl << endl;
+	
+	//zadanie 7
+
+	int number;
+	for (int i=0; i < 10; i++)
+	{
+		cin >> number;
+		if (number>0)
+		{
+			cout << number << endl;
+		}
+		else if (number < 0)
+		{
+			cout << "liczba ujemna" << endl;
+		}
+		else
+		{
+			cout << "zero" << endl;
+		}
+	}
 }
 
 
