@@ -33,8 +33,19 @@ int main()
 	}
 	cout << endl << endl;
 
+//zadanie 3
 
+	int fahr, celsius;
+	int start, limit, krok;
 
+	start = 0;
+	limit = 200;
+	krok = 20;
+	for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
+		float celsius = (5.0 / 9.0) * (fahr - 32);
+		cout << fahr << " " << celsius << endl;
+
+	}
 
 
 }
