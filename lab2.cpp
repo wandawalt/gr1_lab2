@@ -87,6 +87,25 @@ int main()
 			cout << "zero" << endl;
 		}
 	}
+
+	//zadanie 8
+
+	for (int i = 0; i <=100; i+=2)
+	{
+		cout << i << endl;
+	}
+
+	//zadanie 9
+	int n;
+	cout << "Podaj liczbe: ";
+	cin >> n;
+	for (int i = 0; i <= 100; i++) {
+		if (i % n == 0) {
+			cout << i << endl;
+		}
+	}
+
+
 }
 
 
