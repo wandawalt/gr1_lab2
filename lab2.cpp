@@ -6,7 +6,22 @@ using namespace std;
 
 int main()
 {
-  
+ /* for (int i = 0; i < 10; i++)
+  {
+	  cout << i << endl;
+  }
+  return 0;
+  */
+
+  //jesli zmienimy <10 na <=10 to program wypisze liczby od 0 do 10 w³¹cznie
+
+	for (int i = 5; i <= 7; i++)
+	{
+		cout << i << endl;
+	}
+	return 0;
+
+
 }
 
 
